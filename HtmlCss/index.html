@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Html & Css </title>
+</head>
+<body>
+    <!-- ------Header----------- -->
+    <div class="Header">
+        <nav class="navbar" >
+                <h1 >Logo Name</h1>
+            <ul class="navul" >  
+            <li><a href="#" class="nav-item">Home</a></li>
+            <li><a href="#" class="nav-item">About</a></li>
+            <li><a href="#" class="nav-item">Services</a></li>
+            <li><a href="#" class="nav-item">Contact</a></li>
+            </ul>
+          </nav>
+    </div>
+    <!-- -----------Sidebar and Content ---------- -->
+   <div class="Middle " style="display: flex;" >
+    <div class="sidebar" style="width:25% ; height: 700px;  background: #390606;  " >
+         Sidebar
+    </div>
+    <div class="content" style="width: 75%; height: 700px ;  background: #600457; " >
+       Content
+    </div>
+   </div>
+    <div class="footer"style="width: 100%; height: 100px; background: #000; "  >
+
+    </div>
+
+      <style>
+             *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+             }
+   /* ----------- Header ------------- */
+
+            .Header{
+                width:100% ;  background: #707070;
+            }
+
+
+            .navbar{
+                display: flex;
+                justify-content: space-between;
+                gap: 4%;
+                height: 70px; 
+                padding: 2%;
+                padding-right: 4%;
+            
+            }
+            .navul{
+                display: flex;
+                list-style-type: none;
+                gap: 4%;
+            }
+            .nav-item {
+                text-decoration: none;
+                color: black;
+            }
+
+/* -------------SideBar------------------- */
+  .Sidebar{
+
+  }
+
+
+
+
+      </style>
+</body>
+</html>
